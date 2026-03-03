@@ -1,0 +1,26 @@
+{
+  "seed": 42,
+  "min_recall_target_val": 0.8,
+  "threshold": 0.46508148312568665,
+  "auc_train": 0.8784393806328074,
+  "auc_val": 0.8406114271810986,
+  "auc_test": 0.8385717835492904,
+  "ap_train": 0.7168673141338544,
+  "ap_val": 0.6611682998605635,
+  "ap_test": 0.656509073451199,
+  "ks_test": 0.528547245704583,
+  "precision_test": 0.48796147672552165,
+  "recall_test": 0.8128342245989305,
+  "confusion_matrix_test": [
+    [
+      714,
+      319
+    ],
+    [
+      70,
+      304
+    ]
+  ],
+  "report_test": "              precision    recall  f1-score   support\n\n           0     0.9107    0.6912    0.7859      1033\n           1     0.4880    0.8128    0.6098       374\n\n    accuracy                         0.7235      1407\n   macro avg     0.6993    0.7520    0.6979      1407\nweighted avg     0.7983    0.7235    0.7391      1407\n",
+  "report_val": "              precision    recall  f1-score   support\n\n           0     0.9104    0.7280    0.8090      1033\n           1     0.5164    0.8021    0.6283       374\n\n    accuracy                         0.7477      1407\n   macro avg     0.7134    0.7651    0.7187      1407\nweighted avg     0.8057    0.7477    0.7610      1407\n"
+}

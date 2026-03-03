@@ -1,0 +1,1 @@
+{"threshold": 0.46508148312568665, "min_recall_target_val": 0.8, "id_cols_dropped": ["customerid"], "drop_cols_global": [], "drop_cols_model": [], "cat_cols": null}

@@ -1,0 +1,28 @@
+# Ambiente virtual
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Variáveis de ambiente
+.env
+
+# Logs
+*.log
+
+# VSCode
+.vscode/
+
+# Streamlit
+.streamlit/secrets.toml

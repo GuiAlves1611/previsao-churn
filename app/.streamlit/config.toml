@@ -1,0 +1,16 @@
+[theme]
+
+# sua cor principal roxa
+primaryColor="#6366F1"
+
+# fundo geral
+backgroundColor="#F8FAFC"
+
+# fundo de widgets
+secondaryBackgroundColor="#FFFFFF"
+
+# cor principal dos textos
+textColor="#1E293B"
+
+# fonte
+font="sans serif"
