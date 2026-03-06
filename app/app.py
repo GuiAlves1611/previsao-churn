@@ -402,13 +402,11 @@ st.markdown("""
     /* Ajusta o espaçamento do topo para não cortar a navegação */
     .block-container {
         padding-top: 3.5rem !important;
-        padding-bottom: 5rem !important; /* Resolve o botão colado embaixo */
-        padding-left: 3rem !important;
-        padding-right: 3rem !important;
+        padding-bottom: 5rem !important;
     }
 
     /* 2. Oculta a barra nativa do Streamlit (opcional, para visual mais limpo) */
-    header {visibility: hidden;}
+    #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
 
     /* Botão Principal Estilizado */
@@ -595,7 +593,6 @@ with st.sidebar:
     """, unsafe_allow_html=True)
     st.caption("Último Treino: Fev/2026")
     st.caption("Base: 7.032 clientes")
-
 # --- CONTEÚDO PRINCIPAL ---
 st.markdown("<h1 style='text-align: center;'>📈 Painel Executivo de Risco de Retenção</h1>", unsafe_allow_html=True)
 
